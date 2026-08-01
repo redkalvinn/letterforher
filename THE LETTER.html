@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE LETTER</title>
+</head>
+<body>
+
+    <!-- Floating hearts live in here, positioned behind the letter -->
+    <div class="hearts-container" id="heartsContainer"></div>
+
+    <div class="fadeIn">    <p style="text-align: justify;"> 
+
+<b> Hello po sa pinaka maganda kong bebi,<br> una sa lahat bongga noh may pa website pa 'ko,<br> tagal kong ICT tapos ngayon lang ako nagawa ng gan'to huhu.<br>
+so ayun na nga since 14th na ulit this August, <br>eto ang letter na bibigay ko sa'yo besides <br>the illustration na ginawa ko for us, nakalagay 'tong link <br>
+sa mismong illus heweheheh so I hope nakita mo 'to :) <br> <br>
+This August sana is puno lang tayo ng love and such <br>
+and sana naman naging lesses na magiging away natin <br>
+for a good while huhu <br>
+Medyo namiss ngalang natin yung first day and <br>
+600th day sana natin nung August 2 <br>
+I am nanghihinayang lang pero babawi ako ng much. <br> <br>
+Firstly, I wanna express muna that I really love you so much bebi <br>
+Sana maparamdam ko sa'yo ng sobra lalo na sa actions ko <br>
+I hope too na in the future is gano'n parin yung tingin mo sa'kin<br>
+na laging sapat yung nabibigay kong love for the both of us <br>
+lalo na sa'yo. <br> <br>
+
+I really achieve everything with you and gusto ko magkaron ako ng <br>
+future with you, and finally have a family, and achieve our dreams! <br>
+Alam kong matagal pa nating makakamit yung mga gano'n pero sana <br>
+sana ikaw lang yung babaeng makasama ko sa habang buhay <br>
+Ready ako magpakalalaki para lang mapakita ko sa'yo gaano <br>
+ako kaseryoso between us and sana mabigay ko mundo sa'yo <br>
+lalo na't kalaban natin yubg bansa na pinapahirapan tayo ng sarili 
+<br> nating gobyerno. <br> <br>
+   
+Now for the sorries, I'm sorry bebi I weren't enough for us <br>
+in some situation, kasi alam ko rin sa sarili ko na 'di rin <br>
+sapat yung nagiging efforts na napapakita ko sa'yo and <br>
+nasabi mo na rin sa'kin 'yun dati and I hope napapanindigan <br>
+ko yung duty ko bilang manliligaw mo and sana minamahal kita <br> 
+ng way na gusto mong mahalin kita, I am really sorry rin if <br>
+annoying akong tao towards you in some cases and I am trying <br>
+my best para 'di ka laging naiinis sa'kin, kasi all I wanted <br>
+is you to love me, and feel ko sobrang layo pa ng lalakarin ko <br>
+para ayun yung talagang maramdaman mo sa'kin, <br>but again inaayos ko
+for the sake of <br>you're finally realizing that you already<br>loving someone like me 
+and <br>sana you don't see me as a bad person like you did back then <br> <br>
+
+Back to the happy part, ang happy happy ko kasi nakakausap na ulit kita <br>
+kahit busy ka minsan na aappreciate ko yung pag bigay ng time<br> para sa'ting dalawa
+lalo na yung mga pag nood natin ng movies and calls,<br> playing games pag bored <br>
+dati walang gano'n gaiz,<br> super nonchalant n'ya sa'ken and super saya ko kase <br>
+you're comfortable on someone like me and sana tuloy tuloy lang yun para naman <br>
+masagot na'ko yeyyeyeeyey, <br>I'm so happy rin kasi tagal na natin kasi 19 months na us <br>
+and malapit na us mag 2years yeheyyy and 17 months ring ligawan yieyieyieeee, <br>I hope 
+bebi na masagot mo na 'ko and<br> I'll make sure that my love will be moreeee moreeee extra <br>
+I mean super duper extra rin naman now pero iba parin yung gf na kita diba hehehe <br>
+ayubn langgg Happy August 14th bebi koooo! <br>
+
+
+
+</b>
+</p>
+</div>
+
+<script>
+    // Generate floating heart particles behind the letter
+    (function () {
+        const container = document.getElementById('heartsContainer');
+        const heartCount = 28;
+        const blueShades = ['#3b82f6', '#1d4ed8', '#60a5fa', '#93c5fd', '#2563eb', '#38bdf8'];
+
+        for (let i = 0; i < heartCount; i++) {
+            const heart = document.createElement('div');
+            heart.className = 'heart';
+            heart.textContent = '❤';
+
+            const size = (Math.random() * 18 + 12).toFixed(1);        // 12px - 30px
+            const left = (Math.random() * 100).toFixed(2);            // 0% - 100%
+            const duration = (Math.random() * 10 + 10).toFixed(2);    // 10s - 20s
+            const delay = (Math.random() * -20).toFixed(2);           // start mid-flight
+            const drift = (Math.random() * 160 - 80).toFixed(0);      // -80px - 80px sway
+            const color = blueShades[Math.floor(Math.random() * blueShades.length)];
+            const opacity = (Math.random() * 0.35 + 0.25).toFixed(2); // 0.25 - 0.6
+
+            heart.style.left = left + '%';
+            heart.style.fontSize = size + 'px';
+            heart.style.color = color;
+            heart.style.opacity = opacity;
+            heart.style.animationDuration = duration + 's';
+            heart.style.animationDelay = delay + 's';
+            heart.style.setProperty('--drift', drift + 'px');
+
+            container.appendChild(heart);
+        }
+    })();
+</script>
+
+</body>
+</html>
+
+<style>
+
+p {
+    background-color: wheat;
+    text-align: center;
+    padding: 10px;
+    width: fit-content;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     word-spacing: 1px;
+    border-radius: 10px;
+    color: rgb(88, 88, 53);
+    margin-left: 600px;
+    animation: fadeIn 1.5s ease-in-out ;
+
+}
+
+ /* CSS Styling */
+.fadeIn {
+  /* Starts invisible */
+  opacity: 0; 
+  
+  /* Name, duration, easing, and crucial fill-mode */
+  animation: fadeInIntro 2s ease-in-out forwards;
+
+  /* Sit above the floating hearts */
+  position: relative;
+  z-index: 1;
+}
+
+/* Define the animation timeline */
+@keyframes fadeInIntro {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* Optional: shifts it slightly down */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Slides up to its original spot */
+  }
+}
+
+/* ---------- Floating blue hearts ---------- */
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background: #fdfdfd;
+}
+
+.hearts-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.heart {
+    position: absolute;
+    bottom: -10%;
+    line-height: 1;
+    animation-name: floatUp;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    will-change: transform, opacity;
+}
+
+@keyframes floatUp {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    50% {
+        transform: translate(calc(var(--drift) * 0.5), -55vh) rotate(8deg);
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        transform: translate(var(--drift), -115vh) rotate(-8deg);
+        opacity: 0;
+    }
+}
+
+</style>
